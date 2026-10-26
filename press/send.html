@@ -1,0 +1,3 @@
+<!doctype html><meta charset="utf-8"><title>send</title><body>sending…<script>
+fetch('header-16x9.png',{cache:'no-store'}).then(r=>r.blob()).then(b=>{ if(window.opener) window.opener.postMessage({ovHeader:b}, 'https://appstoreconnect.apple.com'); document.body.textContent='sent '+b.size; });
+</script>
